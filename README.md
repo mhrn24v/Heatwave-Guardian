@@ -12,7 +12,7 @@ Features
 - Dashboard communication: Python application exchanges sensor values and fan commands with the Arduino sketch using Arduino RouterBridge.
 - Potential extension: Solar-assisted battery operation and a trained sensor-classification model can be explored after implementation and testing.
 System Overview
- SHT41 ─────────┐
+  SHT41 ─────────┐
  DS18B20 ──────┼──> Arduino UNO Q ─────> OLED display
  DHT11 ────────┘          │
                           ├────────────> Buzzer (outdoor temp > 50 °C)
